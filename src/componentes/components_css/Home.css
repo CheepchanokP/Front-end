@@ -1,0 +1,84 @@
+.page{
+  max-width: 2000px;
+  max-height: max-content;
+  background-color: #eee;
+}
+/*layout sidebar*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  height: 100vh;
+}
+/*content*/
+.grid-main {
+  background-color: #ffffff;
+  border: 20px solid #f5f5f5;
+  
+}
+.content{
+  padding: 10px;
+}
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+}
+.transaction-list, .statistics-display {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 10px 60px 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.income h2{
+  padding: 20px;
+  margin: 0px;
+}
+.income ul{
+  margin: 0px;
+  padding-left: 500px;
+}
+.expence ul{
+  margin: 0px;
+  padding-left: 500px;
+}
+.expence h2{
+  padding: 20px;
+  margin: 0px;
+  justify-content: center;
+}
+/* Chart styles */
+.IncomeChart div {
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.incomechart{
+  padding: 20px;
+
+}
+.expencechart{
+  padding: 20px;
+}
+.dashboard aside{
+padding: 20px;
+
+}
+.chart{
+  background-color: #f4f4f4;
+}
+.recharts-wrapper {
+  background-color: #ffffff;
+  padding: 50px 30px 40px 30px ;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  border-radius: 8px;
+}
+.content .dashboard aside{
+  margin: 0px;
+  padding: 100px 20px 20px 20px;
+}

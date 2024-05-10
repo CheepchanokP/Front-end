@@ -1,0 +1,16 @@
+.modal-title{
+    padding-right: 320px;
+}
+.close{
+    padding: 0 4px 0 4px;
+}
+.form-control{
+    margin: 7px 0 7px 0;
+}
+.btn-primary{
+    margin-left: 0px;
+    
+}
+.btn-danger{
+    margin-left: 10px;
+}

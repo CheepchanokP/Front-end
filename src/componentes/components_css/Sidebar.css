@@ -1,0 +1,37 @@
+.sidebar {
+  background-color: #2E3191;
+  color: white;
+  padding: 20px;
+  height: 100%;
+  
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+ 
+}
+
+.sidebar ul li {
+  padding: 10px ;
+  
+  
+}
+
+.sidebar ul li button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3c3f9a;
+  color: rgb(223, 222, 222);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  transition: background-color 0.5s;
+  
+}
+
+.sidebar ul li button:hover {
+  background-color: #535697;
+  color: #ffffff;
+ 
+}
